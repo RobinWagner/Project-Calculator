@@ -1,14 +1,23 @@
+h1 {
+  margin: 20px auto;
+  width: 150px;
+}
+
 .calculator {
-  width: 300px;
+  width: 255px;
+  background-color: lightgray;
+  margin: auto;
 }
 
 input {
   width: 237px;
   height: 50px;
   margin: 5px;
+  text-align: right;
+  font-size: 1.5em;
 }
 
-.operator {
+.operator, .equals {
   background: orange;
 }
 
@@ -17,6 +26,7 @@ button {
   height: 50px;
   margin: 5px;
   padding: 0px;
+  font-size: 1.2em;
 }
 
 .zero {
